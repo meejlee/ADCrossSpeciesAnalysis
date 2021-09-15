@@ -6,9 +6,7 @@ Publicly available datasets analyzed: GSE48350, GSE1297 (Human postmortem hippoc
 
 # Getting started
 ## Import Data
-Start with .R files in ../scripts to import samples and normalize data
-Scripts for importing are named "ImportGSE48350.R", "ImportGSE1297.R", and "ImportGSE64398.R" and are not dependent on one another.
-Imported data saves to ../data/external appended by the study name
+Start with .R files in ../scripts to import samples and normalize data. Scripts for importing are named "ImportGSE48350.R", "ImportGSE1297.R", and "ImportGSE64398.R" and are not dependent on one another. Imported data saves to ../data/external appended by the study name
 
 NOTE: Manual downloads are required for GSE64398. Additional details are commented into the ImportGSE64398.R script.
 
@@ -34,4 +32,4 @@ This script calls all .m files that start with Plot_ and regenerates figures in 
 NOTE: An additional .R scripts is provided in ../scripts to regenerate Figures 2B,D (HumanPhenotypeAnova.R)
 
 # Additional Information
-Human phenotype information is directly from each respective public study via GEO and saved in ../data as .csv files to match the formatting anticipated in the scripts provided. Human-to-mouse homolog conversion was conducted using the same method as Kumar, et al. Cell, 2017 (https://doi.org/10.1016/j.celrep.2018.10.047) using the same .txt file provided in the original paper's supplement (included).
+Human phenotype information is directly from each respective public study via GEO (links commented in .R files) and saved in ../data as .csv files to match the formatting anticipated in the scripts provided. Human-to-mouse homolog conversion was conducted using the same method as Kumar, et al. Cell, 2017 (https://doi.org/10.1016/j.celrep.2018.10.047) using the same .txt file provided in the original paper's supplement (included).
